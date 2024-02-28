@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<DEASDV xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DOCUMENT id="string">
+    <CREATED>1980-08-12T23:28:01.30</CREATED>
+    <EXPEDITION_DATE>1973-05-05T10:23:34.92</EXPEDITION_DATE>
+    <TEXT>string</TEXT>
+    <CURRENCY>string</CURRENCY>
+    <DOCUMENT_NUMBER>string</DOCUMENT_NUMBER>
+    <TYPE>RETURN</TYPE>
+    <SUPPLIER id="string">
+      <NAME>string</NAME>
+      <VAT_ID>string</VAT_ID>
+      <ADDRESS>
+        <CITY>string</CITY>
+      </ADDRESS>
+    </SUPPLIER>
+    <ITEM>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>2092400.2349058</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITHOUT_VAT>-4934769.7650942</PRICE_WITHOUT_VAT>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>1</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITH_VAT>2631350.2349058</PRICE_WITH_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="EAN" value="7986" />
+      </BARCODES>
+    </ITEM>
+    <ITEM>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>-489309.765094196</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITH_VAT>-1334759.7650942</PRICE_WITH_VAT>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>0</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITH_VAT>-4685829.7650942</PRICE_WITH_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="PLU" value="3412" />
+      </BARCODES>
+    </ITEM>
+    <ITEM>
+      <SKU />
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>592770.234905804</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITH_VAT>-1025199.7650942</PRICE_WITH_VAT>
+      <BARCODES />
+      <IMGURL>
+        <URL>string</URL>
+      </IMGURL>
+    </ITEM>
+    <ITEM>
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>2276930.2349058</AMOUNT>
+      <PRICE_WITHOUT_VAT>4380780.2349058</PRICE_WITHOUT_VAT>
+      <PRICE_WITH_VAT>-191309.765094196</PRICE_WITH_VAT>
+      <VAT_RATE>4926860.2349058</VAT_RATE>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>1</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITH_VAT>3211890.2349058</PRICE_WITH_VAT>
+      </SALE_INFO>
+      <BARCODES />
+      <IMGURL>
+        <URL>string</URL>
+      </IMGURL>
+    </ITEM>
+    <ITEM>
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>3289310.2349058</AMOUNT>
+      <PRICE_WITHOUT_VAT>4087000.2349058</PRICE_WITHOUT_VAT>
+      <PRICE_WITH_VAT>4892620.2349058</PRICE_WITH_VAT>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>0</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITHOUT_VAT>-2986769.7650942</PRICE_WITHOUT_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="PLU" value="9043" />
+      </BARCODES>
+    </ITEM>
+  </DOCUMENT>
+  <DOCUMENT id="string">
+    <CREATED>1973-12-06T07:31:33.32</CREATED>
+    <EXPEDITION_DATE>1978-08-22T20:45:29.73</EXPEDITION_DATE>
+    <TEXT>string</TEXT>
+    <CURRENCY>string</CURRENCY>
+    <DOCUMENT_NUMBER>string</DOCUMENT_NUMBER>
+    <TYPE>DELIVERY_NOTE</TYPE>
+    <SUPPLIER id="string">
+      <NAME>string</NAME>
+      <EMAIL>string</EMAIL>
+    </SUPPLIER>
+    <ITEM>
+      <SKU />
+      <AMOUNT>-3607059.7650942</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITHOUT_VAT>-3560909.7650942</PRICE_WITHOUT_VAT>
+      <PRICE_WITH_VAT>990200.234905804</PRICE_WITH_VAT>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>0</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITHOUT_VAT>-4105179.7650942</PRICE_WITHOUT_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="EAN" value="3087" />
+        <BARCODE type="PLU" value="1177" />
+        <BARCODE type="PLU" value="8543" />
+        <BARCODE type="PLU" value="2781" />
+      </BARCODES>
+    </ITEM>
+    <ITEM>
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <AMOUNT>529120.234905804</AMOUNT>
+      <PRICE_WITH_VAT>847160.234905804</PRICE_WITH_VAT>
+      <VAT_RATE>2564310.2349058</VAT_RATE>
+      <BARCODES>
+        <BARCODE type="EAN" value="4758" />
+        <BARCODE type="PLU" value="2716" />
+      </BARCODES>
+    </ITEM>
+  </DOCUMENT>
+  <DOCUMENT id="string">
+    <CREATED>2017-07-01T07:56:07.27</CREATED>
+    <EXPEDITION_DATE>2004-06-10T03:53:38.07</EXPEDITION_DATE>
+    <TEXT>string</TEXT>
+    <CURRENCY>string</CURRENCY>
+    <DOCUMENT_NUMBER>string</DOCUMENT_NUMBER>
+    <TYPE>RETURN</TYPE>
+    <SUPPLIER id="string">
+      <EMAIL>string</EMAIL>
+      <COMPANY_ID>6556</COMPANY_ID>
+      <VAT_ID>string</VAT_ID>
+      <ADDRESS>
+        <COMPANY>string</COMPANY>
+        <CITY>string</CITY>
+        <COUNTRY_CODE>string</COUNTRY_CODE>
+      </ADDRESS>
+    </SUPPLIER>
+    <ITEM>
+      <SKU />
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <AMOUNT>795420.234905804</AMOUNT>
+      <UNIT>string</UNIT>
+      <VAT_RATE>-3454819.7650942</VAT_RATE>
+      <BARCODES>
+        <BARCODE type="PLU" value="5644" />
+        <BARCODE type="EAN" value="5678" />
+      </BARCODES>
+    </ITEM>
+    <ITEM>
+      <SKU />
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>-4150249.7650942</AMOUNT>
+      <UNIT>string</UNIT>
+      <VAT_RATE>-3211869.7650942</VAT_RATE>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>0</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITH_VAT>4706290.2349058</PRICE_WITH_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="EAN" value="5011" />
+        <BARCODE type="EAN" value="5931" />
+      </BARCODES>
+    </ITEM>
+    <ITEM>
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>-1979619.7650942</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITHOUT_VAT>-4303949.7650942</PRICE_WITHOUT_VAT>
+      <PRICE_WITH_VAT>-4656209.7650942</PRICE_WITH_VAT>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>0</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITHOUT_VAT>-4487959.7650942</PRICE_WITHOUT_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="PLU" value="5972" />
+        <BARCODE type="EAN" value="3200" />
+        <BARCODE type="PLU" value="1250" />
+        <BARCODE type="PLU" value="8136" />
+      </BARCODES>
+      <IMGURL>
+        <URL>string</URL>
+      </IMGURL>
+    </ITEM>
+  </DOCUMENT>
+  <DOCUMENT id="string">
+    <CREATED>1979-05-01T07:52:57.66</CREATED>
+    <EXPEDITION_DATE>2004-08-16T12:14:10.04</EXPEDITION_DATE>
+    <TEXT>string</TEXT>
+    <CURRENCY>string</CURRENCY>
+    <DOCUMENT_NUMBER>string</DOCUMENT_NUMBER>
+    <TYPE>RETURN</TYPE>
+    <SUPPLIER id="string">
+      <NAME>string</NAME>
+      <EMAIL>string</EMAIL>
+      <VAT_ID>string</VAT_ID>
+    </SUPPLIER>
+    <ITEM>
+      <AMOUNT>-1227449.7650942</AMOUNT>
+      <PRICE_WITHOUT_VAT>1203780.2349058</PRICE_WITHOUT_VAT>
+      <PRICE_WITH_VAT>889040.234905804</PRICE_WITH_VAT>
+      <VAT_RATE>642180.234905804</VAT_RATE>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>1</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITHOUT_VAT>-525989.765094196</PRICE_WITHOUT_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="PLU" value="1585" />
+        <BARCODE type="EAN" value="9695" />
+      </BARCODES>
+      <IMGURL>
+        <URL>string</URL>
+      </IMGURL>
+    </ITEM>
+    <ITEM>
+      <SKU />
+      <AMOUNT>-2905739.7650942</AMOUNT>
+      <VAT_RATE>-1383209.7650942</VAT_RATE>
+      <BARCODES>
+        <BARCODE type="PLU" value="5644" />
+      </BARCODES>
+      <IMGURL>
+        <URL>string</URL>
+      </IMGURL>
+    </ITEM>
+    <ITEM>
+      <SKU />
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <AMOUNT>-2214619.7650942</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITHOUT_VAT>-3483669.7650942</PRICE_WITHOUT_VAT>
+      <PRICE_WITH_VAT>4253690.2349058</PRICE_WITH_VAT>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>1</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITHOUT_VAT>1737970.2349058</PRICE_WITHOUT_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="PLU" value="6716" />
+        <BARCODE type="PLU" value="852" />
+        <BARCODE type="EAN" value="236" />
+      </BARCODES>
+    </ITEM>
+    <ITEM>
+      <SKU />
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <AMOUNT>321860.234905804</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITH_VAT>-2183289.7650942</PRICE_WITH_VAT>
+      <VAT_RATE>-4709559.7650942</VAT_RATE>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>1</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITH_VAT>1491160.2349058</PRICE_WITH_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="EAN" value="9204" />
+      </BARCODES>
+    </ITEM>
+  </DOCUMENT>
+  <DOCUMENT id="string">
+    <CREATED>2017-11-21T11:39:16.92</CREATED>
+    <EXPEDITION_DATE>1970-01-23T10:23:04.76</EXPEDITION_DATE>
+    <TEXT>string</TEXT>
+    <CURRENCY>string</CURRENCY>
+    <DOCUMENT_NUMBER>string</DOCUMENT_NUMBER>
+    <TYPE>DELIVERY_NOTE</TYPE>
+    <SUPPLIER id="string">
+      <EMAIL>string</EMAIL>
+      <COMPANY_ID>4633</COMPANY_ID>
+      <ADDRESS>
+        <COMPANY>string</COMPANY>
+        <COUNTRY_CODE>string</COUNTRY_CODE>
+        <ZIP>string</ZIP>
+      </ADDRESS>
+    </SUPPLIER>
+    <ITEM>
+      <SKU />
+      <PRODUCT_NAME>string</PRODUCT_NAME>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>3982570.2349058</AMOUNT>
+      <UNIT>string</UNIT>
+      <VAT_RATE>3985910.2349058</VAT_RATE>
+      <BARCODES>
+        <BARCODE type="EAN" value="3387" />
+        <BARCODE type="PLU" value="7330" />
+        <BARCODE type="PLU" value="6314" />
+      </BARCODES>
+      <IMGURL>
+        <URL>string</URL>
+      </IMGURL>
+    </ITEM>
+    <ITEM>
+      <AMOUNT>3290200.2349058</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITH_VAT>-2189399.7650942</PRICE_WITH_VAT>
+      <BARCODES>
+        <BARCODE type="EAN" value="395" />
+        <BARCODE type="PLU" value="38" />
+        <BARCODE type="EAN" value="8290" />
+      </BARCODES>
+      <IMGURL>
+        <URL>string</URL>
+      </IMGURL>
+    </ITEM>
+    <ITEM>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>-1737659.7650942</AMOUNT>
+      <UNIT>string</UNIT>
+      <PRICE_WITH_VAT>4092320.2349058</PRICE_WITH_VAT>
+      <VAT_RATE>-1149979.7650942</VAT_RATE>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>0</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITHOUT_VAT>1014810.2349058</PRICE_WITHOUT_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="PLU" value="2084" />
+        <BARCODE type="EAN" value="2893" />
+        <BARCODE type="PLU" value="9781" />
+        <BARCODE type="EAN" value="1543" />
+      </BARCODES>
+    </ITEM>
+    <ITEM>
+      <DESCRIPTION>string</DESCRIPTION>
+      <AMOUNT>-3806979.7650942</AMOUNT>
+      <UNIT>string</UNIT>
+      <VAT_RATE>1973290.2349058</VAT_RATE>
+      <SALE_INFO>
+        <REQUIRE_PRICE_UPDATE>0</REQUIRE_PRICE_UPDATE>
+        <PRICE_WITHOUT_VAT>-3944859.7650942</PRICE_WITHOUT_VAT>
+      </SALE_INFO>
+      <BARCODES>
+        <BARCODE type="PLU" value="5176" />
+        <BARCODE type="PLU" value="3176" />
+      </BARCODES>
+    </ITEM>
+  </DOCUMENT>
+</DEASDV>

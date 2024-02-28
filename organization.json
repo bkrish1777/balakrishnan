@@ -1,0 +1,326 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"additionalProperties": false,
+	"definitions": {
+		".ORGANIZATION": {
+			"additionalProperties": false,
+			"description": "Comment describing your root element",
+			"properties": {
+				"@departments": {
+					"$ref": "#/definitions/xs:anySimpleType"
+				},
+				"DIGITAL": {
+					"additionalProperties": false,
+					"properties": {
+						"HEAD": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						},
+						"MANGER": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						}
+					},
+					"required": [
+						"HEAD",
+						"MANGER"
+					],
+					"type": "object"
+				},
+				"ENGINEERING": {
+					"additionalProperties": false,
+					"properties": {
+						"HEAD": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						},
+						"MANAGER": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						}
+					},
+					"required": [
+						"HEAD",
+						"MANAGER"
+					],
+					"type": "object"
+				},
+				"ENTERPRISE": {
+					"additionalProperties": false,
+					"properties": {
+						"HEAD": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						},
+						"MANGER": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						}
+					},
+					"required": [
+						"HEAD",
+						"MANGER"
+					],
+					"type": "object"
+				},
+				"IT": {
+					"additionalProperties": false,
+					"properties": {
+						"HEAD": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						},
+						"MANAGER": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"anyOf": [
+										{
+											"type": "null"
+										},
+										{
+											"$ref": "#/definitions/xs:anyType"
+										}
+									]
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						}
+					},
+					"required": [
+						"HEAD",
+						"MANAGER"
+					],
+					"type": "object"
+				},
+				"SUPPORTSERVICES": {
+					"additionalProperties": false,
+					"properties": {
+						"HEAD": {
+							"additionalProperties": false,
+							"properties": {
+								"BRAQNCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRAQNCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						},
+						"MANGER": {
+							"additionalProperties": false,
+							"properties": {
+								"BRANCH": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"CONTACTNUMBER": {
+									"$ref": "#/definitions/xs:anyType"
+								},
+								"NAME": {
+									"$ref": "#/definitions/xs:anyType"
+								}
+							},
+							"required": [
+								"BRANCH",
+								"CONTACTNUMBER",
+								"NAME"
+							],
+							"type": "object"
+						}
+					},
+					"required": [
+						"HEAD",
+						"MANGER"
+					],
+					"type": "object"
+				}
+			},
+			"required": [
+				"DIGITAL",
+				"ENGINEERING",
+				"ENTERPRISE",
+				"IT",
+				"SUPPORTSERVICES"
+			],
+			"type": "object"
+		},
+		"xs:anySimpleType": {
+			"type": [
+				"string",
+				"number",
+				"boolean"
+			]
+		},
+		"xs:anyType": {
+			"additionalProperties": false,
+			"patternProperties": {
+				"^@\\w+$": {
+					"type": [
+						"string",
+						"number",
+						"boolean"
+					]
+				},
+				"^\\w+$": {
+				}
+			},
+			"properties": {
+				"$": {
+					"type": [
+						"string",
+						"number",
+						"boolean"
+					]
+				}
+			},
+			"type": [
+				"object",
+				"string",
+				"number",
+				"boolean"
+			]
+		}
+	},
+	"description": "JSON Schema generated by XMLSpy v2023 rel. 2 (x64) (http://www.altova.com)",
+	"properties": {
+		"@xmlns:xs": {
+			"default": "http://www.w3.org/2001/XMLSchema"
+		},
+		"ORGANIZATION": {
+			"$ref": "#/definitions/.ORGANIZATION"
+		}
+	},
+	"type": "object"
+}
